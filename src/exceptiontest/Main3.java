@@ -9,7 +9,7 @@ public class Main3{
             System.out.println(e.getMessage());
         }
     }
-    static void throwException() throws ClassNotFoundException, NullPointerException{
+    static void throwException () throws ClassNotFoundException, NullPointerException{
         Class.forName("java.lang.StringX");
     }
 }
